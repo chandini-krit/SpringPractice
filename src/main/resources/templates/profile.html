@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+</head>
+<body>
+<h2>User Profile</h2>
+<div>
+    <p><strong>Name:</strong> <span th:text="${user.name}"></span></p>
+    <p><strong>Email:</strong> <span th:text="${user.email}"></span></p>
+    <p><strong>Gender:</strong> <span th:text="${user.gender}"></span></p>
+    <p><strong>Interests:</strong> <span th:text="${user.interests}"></span></p>
+    <p><strong>Skills:</strong> <span th:text="${user.skills}"></span></p>
+    <p><strong>Hobbies:</strong> <span th:text="${user.hobbies}"></span></p>
+</div>
+</body>
+</html>
